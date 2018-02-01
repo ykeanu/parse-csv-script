@@ -1,7 +1,7 @@
 # Shell Script - Parse CSV files
 UNIX shell script that counts repetitive values in a csv file and generates a list of ranked from highest to lowest.
 
-## Problem
+## Challenge
 - Count the number of occurences of distinct values in the second column of a csv file. Return with a list ranking from greatest to least.
 - For example, the second column of users.csv contains a field of 'Users', which stores a list of names that may or may not appear multiple times.
 - The goal is to count the number of times a name appears and rank the occurences from high to low.
@@ -9,6 +9,12 @@ UNIX shell script that counts repetitive values in a csv file and generates a li
 ## Additional Requirements
 - Shell script should only be one line
 
+## Solution
+```
+ 
+ awk -F ',' '{print $2}' users.csv | sort | uniq -c | sort -nr
+
+```
 
 ## Live Demo
 ### Shell Script
@@ -17,12 +23,7 @@ UNIX shell script that counts repetitive values in a csv file and generates a li
 ### File - users.csv
 <img src="https://github.com/ykeanu/parse-csv-script/blob/master/assets/userscsv.PNG?raw=true" width="70%" height="70%">
 
-## Solution
-```
- 
- awk -F ',' '{print $2}' users.csv | sort | uniq -c | sort -nr
 
-```
 
 ## Explanation
 - awk -F ',' '{print $2}' users.csv 
@@ -34,7 +35,6 @@ UNIX shell script that counts repetitive values in a csv file and generates a li
     - counts the number of repeated occurences
 - sort -nr
     - sorts the results with lines that occur the most often first
--
 
 <!--- 
 - cat users.csv | awk '{print $2}' | sort | uniq -c
