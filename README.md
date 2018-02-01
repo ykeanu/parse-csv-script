@@ -12,10 +12,10 @@ UNIX shell script that counts repetitive values in a csv file and generates a li
 
 ## Live Demo
 ### Shell Script
-<img src="https://github.com/ykeanu/parse-csv-script/blob/master/assets/parsecsv.gif?raw=true" width="85%" height="85%">
+<img src="https://github.com/ykeanu/parse-csv-script/blob/master/assets/parsecsv.gif?raw=true" width="95%" height="95%">
 
 ### File - users.csv
-<img src="https://github.com/ykeanu/parse-csv-script/blob/master/assets/userscsv.PNG?raw=true" width="85%" height="85%">
+<img src="https://github.com/ykeanu/parse-csv-script/blob/master/assets/userscsv.PNG?raw=true" width="70%" height="70%">
 
 ## Solution
 ```
