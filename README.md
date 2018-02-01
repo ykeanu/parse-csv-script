@@ -11,9 +11,9 @@ UNIX shell script that counts repetitive values in a csv file and generates a li
 
 
 ## Live Demo
-### File - users.csv
-<!--  <img src="" width="85%" height="85%">  -->
 ### Shell Script
+<img src="https://github.com/ykeanu/parse-csv-script/blob/master/assets/parsecsv.gif?raw=true" width="85%" height="85%">
+### File - users.csv
 <!--  <img src="" width="85%" height="85%">  -->
 
 ## Solution
