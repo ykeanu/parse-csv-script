@@ -1,5 +1,5 @@
 # Shell Script - Parse CSV files
-UNIX shell script that counts repetitive values in a csv file and generates a list of ranked from highest to lowest.
+- UNIX shell script that counts repetitive values in a csv file and generates a list of ranked from highest to lowest.
 
 ## Challenge
 - Count the number of occurences of distinct values in the second column of a csv file. Return with a list ranking from greatest to least.
