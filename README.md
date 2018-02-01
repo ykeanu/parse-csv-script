@@ -9,13 +9,6 @@
 ## Additional Requirements
 - Shell script should only be one line
 
-## Solution
-```
- 
- awk -F ',' '{print $2}' users.csv | sort | uniq -c | sort -nr
-
-```
-
 ## Live Demo
 ### Shell Script
 <img src="https://github.com/ykeanu/parse-csv-script/blob/master/assets/parsecsv.gif?raw=true" width="95%" height="95%">
@@ -23,7 +16,12 @@
 ### File - users.csv
 <img src="https://github.com/ykeanu/parse-csv-script/blob/master/assets/userscsv.PNG?raw=true" width="70%" height="70%">
 
+## Solution
+```
+ 
+ awk -F ',' '{print $2}' users.csv | sort | uniq -c | sort -nr
 
+```
 
 ## Explanation
 - awk -F ',' '{print $2}' users.csv 
