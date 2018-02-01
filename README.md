@@ -10,10 +10,10 @@
 - Shell script should only be one line
 
 ## Live Demo
-### Shell Script
+### i. Shell Script
 <img src="https://github.com/ykeanu/parse-csv-script/blob/master/assets/parsecsv.gif?raw=true" width="95%" height="95%">
 
-### File - users.csv
+### ii. File - users.csv
 <img src="https://github.com/ykeanu/parse-csv-script/blob/master/assets/userscsv.PNG?raw=true" width="70%" height="70%">
 
 ## Solution
@@ -24,14 +24,14 @@
 ```
 
 ## Explanation
-- awk -F ',' '{print $2}' users.csv 
-    - prints the 2nd column of users.csv, where $n is the number corresponding to the field being parsed.
+- **awk -F ',' '{print $2}' users.csv**
+    - prints the 2nd column of users.csv, where $n is the number corresponding to the field being parsed
     - comma is used as the record seperator
-- sort
+- **sort**
     - sorts the results in alphabetical order
-- uniq -c
+- **uniq -c**
     - counts the number of repeated occurences
-- sort -nr
+- **sort -nr**
     - sorts the results with lines that occur the most often first
 
 <!--- 
