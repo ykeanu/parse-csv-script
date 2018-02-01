@@ -3,8 +3,8 @@
 
 ## Challenge
 - Count the number of occurences of distinct elements in the second column of a csv file. Return with a list ranking from greatest to least.
-..- For example, the second column of users.csv contains a field of 'Users', which stores a list of names that may or may not appear multiple times.
-..- The goal is to count the number of times a name appears and rank the occurences from high to low.
+- For example, the second column of users.csv contains a field of 'Users', which stores a list of names that may or may not appear multiple times.
+- The goal is to count the number of times a name appears and rank the occurences from high to low.
 
 ## Additional Requirements
 - Shell script should only be one line
